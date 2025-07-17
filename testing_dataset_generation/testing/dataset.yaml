@@ -1,0 +1,17 @@
+path: D:\Git\lunarlander_yolo_testing\testing_dataset_generation\testing
+train: images/train
+val:   images/val
+test:  images/test
+
+nc: 1
+names: ['lander']
+
+keypoints: 5
+skeleton:
+  - [0,4]
+  - [1,4]
+  - [2,4]
+  - [3,4]
+
+kpt_shape: [5, 3]
+flip_idx:  [1, 0, 3, 2, 4]
